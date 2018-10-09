@@ -44,6 +44,9 @@
       <th scope="col">status</th>
       <th scope="col">desc</th>
       <th scope="col">说明</th>
+      <th scope="col">gochat</th>
+      <th scope="col">QQ</th>
+      <th scope="col">微信</th>
       <th scope="col">操作</th>
       
     </tr>
@@ -108,6 +111,12 @@
             break;
           case 8:
             return 'tt';
+          case 9:
+            return 'gochat';
+          case 10:
+            return 'qq';
+          case 11:
+            return 'weixin';
         }
 
       }
